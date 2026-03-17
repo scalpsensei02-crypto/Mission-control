@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Mission Control v2</title> 
+ <link rel="stylesheet" href="style.css"> 
+ </head> 
+ <body> 
+ <div class="app-shell"> 
+ <header class="topbar"> 
+ <div class="brand-block"> 
+ <div class="brand-kicker">
+ Mission Control 
+ </div> 
+ <h1>Worker Registry Office</h1> 
+ <p class="brand-subtitle"> Pokémon-style office map with a full integrated worker roster, worker cards, mission console, and portrait-ready layout. </p> 
+ </div> 
+ <div class="topbar-actions"> <button class="mc-btn" id="refreshBtn">Refresh</button> <button class="mc-btn mc-btn-primary" id="connectBtn">Connect Atlas</button> 
+ </div> 
+ </header> 
+ <main class="main-layout"> 
+ <section class="panel office-panel"> 
+ <div class="panel-header"> 
+ <div> 
+ <h2>Office Map</h2> 
+ <p>Click any room to inspect the assigned worker or shared system.</p> 
+ </div> 
+ <div class="panel-badge" id="selectedMapBadge">
+ Atlas Desk 
+ </div> 
+ </div>
+<div class="office-map" id="officeMap"></div> 
+ <div class="office-legend"> 
+ <div class="legend-item">
+ Left Wing = Marketing / Brand 
+ </div> 
+ <div class="legend-item">
+ Center = Command / Planning / Routing 
+ </div> 
+ <div class="legend-item">
+ Right Wing = Research / Analytics / Sales 
+ </div> 
+ <div class="legend-item">
+ Bottom = Operations / Storage / Entry 
+ </div> 
+ </div> 
+ </section> 
+ <section class="side-layout"> 
+ <section class="panel worker-panel"> 
+ <div class="panel-header"> 
+ <div> 
+ <h2>Selected Worker Card</h2> 
+ <p>Worker details update from map and roster selections.</p> 
+ </div> 
+ <div class="panel-badge" id="selectedWorkerBadge">
+ Atlas 
+ </div> 
+ </div> 
+ <div class="worker-card" id="workerCard"> 
+ <div class="worker-card-top"> 
+ <div class="portrait-slot" id="portraitSlot"> 
+ <img id="portraitImage" alt=""> 
+ <div id="portraitFallback">
+ Portrait Slot 
+ </div> 
+ </div> 
+ <div class="worker-identity"> 
+ <div class="worker-name-row"> 
+ <h3 id="workerName">Atlas</h3> <span class="status-pill" id="workerStatus">ACTIVE</span> 
+ </div> 
+ <div class="worker-role" id="workerRole">
+ Chief Coordinator 
+ </div> 
+ <div class="worker-meta"> <span id="workerDepartment">Command</span> <span>•</span> <span id="workerRoom">Atlas Desk</span> 
+ </div> 
+ </div> 
+ </div> 
+ <div class="worker-section"> 
+ <div class="section-label">
+ Mission 
+ </div> 
+ <div class="worker-copy" id="workerMission"></div> 
+ <div class="worker-tagline" id="workerTagline"></div> 
+ </div> 
+ <div class="worker-grid"> 
+ <div class="worker-section"> 
+ <div class="section-label">
+ Core Functions 
+ </div> 
+ <div class="stack-list" id="workerFunctions"></div> 
+ </div> 
+ <div class="worker-section"> 
+ <div class="section-label">
+ Quick Actions 
+ </div> 
+ <div class="action-list" id="workerActions"></div> 
+ </div> 
+ </div> 
+ <div class="worker-grid"> 
+ <div class="worker-section"> 
+ <div class="section-label">
+ Inputs 
+ </div> 
+ <div class="chip-list" id="workerInputs"></div> 
+ </div> 
+ <div class="worker-section"> 
+ <div class="section-label">
+ Outputs 
+ </div> 
+ <div class="chip-list" id="workerOutputs"></div> 
+ </div> 
+ </div> 
+ </div> 
+ </section> 
+ <section class="panel roster-panel"> 
+ <div class="panel-header"> 
+ <div> 
+ <h2>Roster Drawer</h2> 
+ <p>All workers and shared systems.</p> 
+ </div> 
+ </div> 
+ <div class="roster-list" id="rosterList"></div> 
+ </section> 
+ <section class="panel console-panel"> 
+ <div class="panel-header"> 
+ <div> 
+ <h2>Mission Console</h2> 
+ <p>Selection log and lightweight event feed.</p> 
+ </div> 
+ </div> 
+ <div class="mission-console" id="missionConsole"></div> 
+ </section> 
+ </section> 
+ </main> 
+ </div> 
+ <script src="app.js"></script> 
+ </body>
+</html>
