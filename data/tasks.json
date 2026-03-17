@@ -1,0 +1,84 @@
+{
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Q1 Performance Review",
+      "assignedTo": "Atlas",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-03-20"
+    },
+    {
+      "id": "task-2",
+      "title": "Brand Guidelines Update",
+      "assignedTo": "Prism",
+      "status": "pending",
+      "priority": "medium",
+      "dueDate": "2026-03-25"
+    },
+    {
+      "id": "task-3",
+      "title": "Q2 Marketing Campaign Launch",
+      "assignedTo": "Nova",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-04-01"
+    },
+    {
+      "id": "task-4",
+      "title": "Client Presentation Deck",
+      "assignedTo": "Spark",
+      "status": "pending",
+      "priority": "medium",
+      "dueDate": "2026-03-22"
+    },
+    {
+      "id": "task-5",
+      "title": "Experiment Results Analysis",
+      "assignedTo": "Echo",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-03-18"
+    },
+    {
+      "id": "task-6",
+      "title": "Monthly Analytics Report",
+      "assignedTo": "Cipher",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-03-15"
+    },
+    {
+      "id": "task-7",
+      "title": "Vendor Contract Renewal",
+      "assignedTo": "Pulse",
+      "status": "pending",
+      "priority": "low",
+      "dueDate": "2026-03-30"
+    },
+    {
+      "id": "task-8",
+      "title": "Storage Backup Verification",
+      "assignedTo": "Vault",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-03-17"
+    },
+    {
+      "id": "task-9",
+      "title": "Strategic Roadmap Review",
+      "assignedTo": "Nexus",
+      "status": "pending",
+      "priority": "high",
+      "dueDate": "2026-03-28"
+    },
+    {
+      "id": "task-10",
+      "title": "Office Security Audit",
+      "assignedTo": "Reception",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-03-16"
+    }
+  ]
+}
