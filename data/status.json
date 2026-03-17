@@ -1,0 +1,74 @@
+{
+  "atlas": {
+    "id": "atlas",
+    "room": "Atlas Desk",
+    "status": "active",
+    "timestamp": "2026-03-17T21:00:00Z"
+  },
+  "nova": {
+    "id": "nova",
+    "room": "Left Wing A",
+    "status": "active",
+    "timestamp": "2026-03-17T20:55:00Z"
+  },
+  "prism": {
+    "id": "prism",
+    "room": "Left Wing B",
+    "status": "active",
+    "timestamp": "2026-03-17T21:01:00Z"
+  },
+  "nexus": {
+    "id": "nexus",
+    "room": "Center A",
+    "status": "idle",
+    "timestamp": "2026-03-17T20:45:00Z"
+  },
+  "router": {
+    "id": "router",
+    "room": "Center B",
+    "status": "active",
+    "timestamp": "2026-03-17T21:02:00Z"
+  },
+  "spark": {
+    "id": "spark",
+    "room": "Right Wing C",
+    "status": "idle",
+    "timestamp": "2026-03-17T20:30:00Z"
+  },
+  "echo": {
+    "id": "echo",
+    "room": "Right Wing A",
+    "status": "active",
+    "timestamp": "2026-03-17T21:03:00Z"
+  },
+  "cipher": {
+    "id": "cipher",
+    "room": "Right Wing B",
+    "status": "active",
+    "timestamp": "2026-03-17T21:04:00Z"
+  },
+  "pulse": {
+    "id": "pulse",
+    "room": "Bottom Wing",
+    "status": "away",
+    "timestamp": "2026-03-17T20:15:00Z"
+  },
+  "vault": {
+    "id": "vault",
+    "room": "Storage",
+    "status": "active",
+    "timestamp": "2026-03-17T21:05:00Z"
+  },
+  "reception": {
+    "id": "reception",
+    "room": "Entry",
+    "status": "active",
+    "timestamp": "2026-03-17T21:06:00Z"
+  },
+  "atlas-system": {
+    "id": "atlas-system",
+    "room": "Atlas Desk",
+    "status": "active",
+    "timestamp": "2026-03-17T21:07:00Z"
+  }
+}
