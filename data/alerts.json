@@ -1,0 +1,101 @@
+{
+  "alerts": [
+    {
+      "id": "alert-1",
+      "title": "System Maintenance Window",
+      "priority": "low",
+      "message": "Scheduled maintenance tonight at 02:00 UTC. Expected downtime: 15 minutes.",
+      "timestamp": "2026-03-17T18:00:00Z"
+    },
+    {
+      "id": "alert-2",
+      "title": "Storage Capacity Warning",
+      "priority": "medium",
+      "message": "Storage usage at 78%. Consider archival cleanup or capacity expansion.",
+      "timestamp": "2026-03-17T19:30:00Z"
+    },
+    {
+      "id": "alert-3",
+      "title": "New Worker Onboarding",
+      "priority": "low",
+      "message": "Prism (Brand Designer) successfully onboarded to Left Wing B.",
+      "timestamp": "2026-03-17T16:45:00Z"
+    },
+    {
+      "id": "alert-4",
+      "title": "Sales Target Achieved",
+      "priority": "high",
+      "message": "Q1 revenue target exceeded by 12%. Congratulations to the sales team!",
+      "timestamp": "2026-03-17T14:20:00Z"
+    },
+    {
+      "id": "alert-5",
+      "title": "Research Breakthrough",
+      "priority": "high",
+      "message": "Echo's latest experiment yielded promising results. Full analysis pending.",
+      "timestamp": "2026-03-17T11:00:00Z"
+    }
+  ]
+}
+
+--- data/prices.json ---
+{
+  "prices": [
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "price": 67432.18,
+      "change": 2.34,
+      "timestamp": "2026-03-17T21:00:00Z"
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "price": 3421.56,
+      "change": 1.87,
+      "timestamp": "2026-03-17T21:00:00Z"
+    },
+    {
+      "symbol": "SOL",
+      "name": "Solana",
+      "price": 178.92,
+      "change": -0.45,
+      "timestamp": "2026-03-17T21:00:00Z"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "price": 892.45,
+      "change": 3.21,
+      "timestamp": "2026-03-17T21:00:00Z"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "price": 187.32,
+      "change": 0.89,
+      "timestamp": "2026-03-17T21:00:00Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet",
+      "price": 145.78,
+      "change": 1.12,
+      "timestamp": "2026-03-17T21:00:00Z"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "price": 412.56,
+      "change": 0.67,
+      "timestamp": "2026-03-17T21:00:00Z"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "price": 234.89,
+      "change": -1.45,
+      "timestamp": "2026-03-17T21:00:00Z"
+    }
+  ]
+}
